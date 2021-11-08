@@ -1,0 +1,28 @@
+git and git hub
+
+-git ls-files =>to list all files being tracked
+-git remote add origin https://github.com/mohmy911/pp.git
+-git remote -v
+-git push origin master
+-git branch <branchNae>
+-git checkout <branch Name>
+-git checkout -b <branchName> => to create and checkout at the same time
+-git merge <branch name>
+-git log --oneline
+-git archive master --format=zip -output=../nameOfTheFile.zip
+-git bundle create ../repo.bundler master
+-git stash  
+-git remote rename origin repo1
+-git remote remove repo1
+-git remote rm repo1
+-git push origin newBranch
+-git push origin --delete newBranch
+//always first delete from remote then from local
+-git branch -d newBranch =>to delete from local
+//always first rename on local
+-git branch -m old_branch_name newBranchName
+-git push origin :old_branch_name newBranchName
+** force push
+-git push -f origin branchName
+//all commits in shared repositries must be asssumed immutable
+rm -rf folder/ to delete a directory or folder
