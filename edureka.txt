@@ -1,1 +1,2 @@
- thi is it 
+ thi is it
+ rebase changes to commit
